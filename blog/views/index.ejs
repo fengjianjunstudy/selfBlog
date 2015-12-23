@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %> hello world</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <ul>
+    	<% for(var i=0,len=supplies.length;i<len;i++){ %>
+    		<li><%- supplies[i]%></li>
+		<% } %>
+    </ul>
+    <p>Welcome to <%= title %></p>
+  </body>
+</html>
