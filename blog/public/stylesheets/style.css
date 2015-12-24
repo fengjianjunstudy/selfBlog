@@ -1,8 +1,22 @@
+*{margin: 0;padding: 0; box-sizing:border-box;}
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 600px; margin:0 auto;color: #333;
 }
-
+article{ overflow: hidden;}
+ul,li{ list-style: none;}
+header{padding: 30px 0; text-align: center; border-bottom: 1px solid #ccc; clear: both; margin-bottom: 50px}
+nav{ float: left; width: 100px;}
+nav span{ display: block; height: 30px; line-height: 30px; border-bottom: 1px dashed #ccc;}
+nav span a{ display: block; color: #666;}
+.arc-right{ width: 500px; float: left; padding-left: 20px;}
+.form_ul li{ line-height: 30px; font-size: 14px; margin-bottom: 10px}
+.form_ul label{ width: 80px; display: inline-block; text-align: right; margin-right: 10px;}
+.form_ul input{ outline: none; padding: 0 10px;height: 30px; border:1px solid #ccc; line-height: 28px; background-color: #fff; }
+.form_ul input:focus{ border-color: red;}
+input[type=submit]{ border: none; display:block;background-color: #c00; width: 80px; height: 36px; color: #fff; font-size: 16px; border-radius: 5px; margin-left:100px; cursor: pointer;outline: none;}
+footer{ padding-top: 50px;}
+footer p{ line-height: 100px; border-top:1px solid #ccc; text-align: center;}
 a {
   color: #00B7FF;
 }
